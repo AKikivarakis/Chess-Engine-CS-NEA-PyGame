@@ -5,13 +5,13 @@ class Square():
     def __init__(self, board_colour, square_pos, player_colour):
 
         # Load and scale up squares
-        square_brown_dark = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/square brown dark_1x.png').convert_alpha()
+        square_brown_dark = pygame.image.load('/images/square brown dark_1x.png').convert_alpha()
         square_brown_dark = pygame.transform.scale(square_brown_dark, (75, 75))
-        square_brown_light = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/square brown light_1x.png').convert_alpha()
+        square_brown_light = pygame.image.load('/images/square brown light_1x.png').convert_alpha()
         square_brown_light = pygame.transform.scale(square_brown_light, (75, 75))
-        square_gray_dark = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/square gray dark _1x.png').convert_alpha()
+        square_gray_dark = pygame.image.load('/images/square gray dark _1x.png').convert_alpha()
         square_gray_dark = pygame.transform.scale(square_gray_dark, (75, 75))
-        square_gray_light = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/square gray light _1x.png').convert_alpha()
+        square_gray_light = pygame.image.load('/images/square gray light _1x.png').convert_alpha()
         square_gray_light = pygame.transform.scale(square_gray_light, (75, 75))
 
         # Square position
