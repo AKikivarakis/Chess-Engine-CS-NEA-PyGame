@@ -173,11 +173,11 @@ class Pawn(Piece):
         super().__init__(colour, positionX, positionY, "pawn", 10)
 
         if self.colour == "white":
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/w_pawn_1x.png')
+            image = pygame.image.load('/images/w_pawn_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
         else:
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/b_pawn_1x.png')
+            image = pygame.image.load('/images/b_pawn_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
         self.direction = None
@@ -226,11 +226,11 @@ class Knight(Piece):
         super().__init__(colour, positionX, positionY, "knight", 30)
 
         if self.colour == "white":
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/w_knight_1x.png')
+            image = pygame.image.load('/images/w_knight_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
         else:
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/b_knight_1x.png')
+            image = pygame.image.load('/images/b_knight_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
     def getValidMoves(self, board):
@@ -273,11 +273,11 @@ class Bishop(Piece):
         super().__init__(colour, positionX, positionY, "bishop", 30.01)
 
         if self.colour == "white":
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/w_bishop_1x.png')
+            image = pygame.image.load('/images/w_bishop_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
         else:
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/b_bishop_1x.png')
+            image = pygame.image.load('/images/b_bishop_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
     def getValidMoves(self, board):
@@ -294,11 +294,11 @@ class Rook(Piece):
         super().__init__(colour, positionX, positionY, "rook", 50)
 
         if self.colour == "white":
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/w_rook_1x.png')
+            image = pygame.image.load('/images/w_rook_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
         else:
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/b_rook_1x.png')
+            image = pygame.image.load('/images/b_rook_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
 
@@ -317,11 +317,11 @@ class Queen(Piece):
         super().__init__(colour, positionX, positionY, "queen", 90)
 
         if self.colour == "white":
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/w_queen_1x.png')
+            image = pygame.image.load('/images/w_queen_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
         else:
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/b_queen_1x.png')
+            image = pygame.image.load('/images/b_queen_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
     def getValidMoves(self, board):
@@ -341,11 +341,11 @@ class King(Piece):
         super().__init__(colour, positionX, positionY, "king", 999999)
 
         if self.colour == "white":
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/w_king_1x.png')
+            image = pygame.image.load('/images/w_king_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
         else:
-            image = pygame.image.load('/Users/Ali/Library/Mobile Documents/com~apple~CloudDocs/Northwood School/Computer Science/Coursework/images/b_king_1x.png')
+            image = pygame.image.load('/images/b_king_1x.png')
             self.image = pygame.transform.scale(image, (75, 75))
 
     def getValidMoves(self, board):
